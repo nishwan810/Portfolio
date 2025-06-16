@@ -1,0 +1,35 @@
+import * as motion from "motion/react-client"
+import img1 from "../assets/img1.svg";
+
+
+
+export default function Keyframes() {
+  return (
+    <motion.div
+      animate={{
+        scale: [1, 2, 2, 1, 1],
+        rotate: [0, 0, 180, 180, 0],
+        borderRadius: ["0%", "0%", "50%", "50%", "0%"],
+      }}
+      transition={{
+        duration: 2,
+        ease: "easeInOut",
+        times: [0, 0.2, 0.5, 0.8, 1],
+        repeat: Infinity,
+        repeatDelay: 1,
+      }}
+      style={{
+        width: 100,
+        height: 100,
+        borderRadius: 5,
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+        fontSize: 40,
+      }}
+    >
+        <img src={img1} className="h-[100px] w-[100px]" />
+  
+    </motion.div>
+  )
+}

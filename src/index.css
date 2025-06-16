@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Iceland&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap');
+
+@import "tailwindcss";
+
+
+
+
+@theme{
+
+  --font-Zendot: Zen Dots, "san-serif";
+  --font-doto: Doto, "sans-serif";
+  --font-Roboto: Roboto, "sans-serif";
+  --font-Monoto: Monoton, "sans-serif";
+  --font-Press: "Press Start 2P" , "system-ui";
+  --font-Iceland: "Iceland", "sans-serif";
+  --font-Funnel: "Funnel Display", "sans-serif";
+  --font-CalSans: "Cal Sans", "sans-serif";
+  
+  
+}
+
+
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgb(12, 0, 0);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+/* e.g., in App.css */
+html, body, #root, .App {
+  margin: 0;
+  height: 100%;
+  scroll-behavior: auto;
+  color: black;
+  background-color: #242424;
+}
