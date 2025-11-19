@@ -48,7 +48,7 @@ export function FloatingDockDemo() {
           <IconFileCv className="h-full w-full text-neutral-500 dark:text-emerald-400"/>
   
         ),
-        href: "https://drive.google.com/file/d/1stUQ2GJPoqa48wBW-pyAnD2Xii_1ZMNV/view?usp=sharing",
+        href: "https://drive.google.com/file/d/1ESZT22xSxEF_kfnonBxTtsDcDr1KXsly/view?usp=sharing",
        target: "_blank",
   
         },
