@@ -18,7 +18,7 @@ export function TimelineDemo() {
       content: (
         <div>
           <p
-            className="mb-8   text-xs font-normal text-neutral-800 md:text-sm dark:text-neutral-200">
+            className="mb-8   text-xs font-normal  md:text-sm text-neutral-200">
               <a className=" font-Funnel text-xl"> AccioJob</a><br/><a className="font-Funnel text-gray-500 ">
            Logic Building, Data structure and Algorithm , Spring and SpringBoot
            </a>
@@ -42,7 +42,7 @@ export function TimelineDemo() {
       content: (
         <div>
           <p
-            className="mb-8   text-xs font-normal text-neutral-800 md:text-sm dark:text-neutral-200">
+            className="mb-8   text-xs font-normal  md:text-sm text-neutral-200">
               <a className=" font-Funnel text-xl"> Java Fullstack Developer Intern – N Infinity Info Solution</a><br/><a className="font-Funnel text-gray-500 ">
            Deep-dived into backend development using Core Java, Spring Boot, Hibernate, Servlets, and MySQL. Contributed 
            to enhancing web app performance and functionality.</a> <a className=" text-blue-500" href="https://www.linkedin.com/company/ninfinityinfosolutions/posts/?feedView=all">
@@ -69,9 +69,9 @@ export function TimelineDemo() {
       content: (
         <div>
            <p
-             className="mb-8   text-xs font-normal text-neutral-800 md:text-sm dark:text-neutral-200">
+             className="mb-8   text-xs font-normal  md:text-sm text-neutral-200">
              <a className=" font-Funnel text-xl"> B.Tech in Mechanical Engineering – MIT Academy of Engineering, Pune</a><br/><a className="font-Funnel text-gray-500 ">
-             Started as a mechanical engineer with a passion for tech. Learned discipline, analytical thinking, and problem-solving.</a> <a className=" text-blue-500" href="https://admissions.mitaoe.ac.in/application-form-engineering">
+             Started as a mechanical engineer with a passion for tech. Learned discipline, analytical thinking, and problem-solving.</a> <a className=" text-blue-500" href="https://mitaoe.ac.in/">
            MITAOE
           </a><br/><a className=" font-Funnel text-[18px]">Club Involvement </a><br/>
           <a>Actively participated in college tech and cultural clubs, contributing to team events and boosting collaboration skills.like  </a><a className=" font-Funnel text-orange-700" href="https://www.instagram.com/p/CaXNIvvgfT-/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="> TEDxMITAOE, </a><a className=" font-Funnel text-orange-700" >Robotics & </a><a className=" font-Funnel text-orange-700">Under25</a>

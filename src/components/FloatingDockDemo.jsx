@@ -26,7 +26,7 @@ export function FloatingDockDemo() {
     {
       title: "GitHub",
       icon: (
-        <IconBrandGithub className="h-full w-full text-neutral-500 dark:text-emerald-400" />
+        <IconBrandGithub className="h-full w-full text-emerald-400" />
       ),
       href: "https://github.com/nishwan810",
     },
@@ -34,7 +34,7 @@ export function FloatingDockDemo() {
       title: "Linkedin",
       icon: (
 
-        <IconBrandLinkedin className="h-full w-full text-neutral-500 dark:text-emerald-400"/>
+        <IconBrandLinkedin className="h-full w-full text-emerald-400"/>
 
       ),
       href: "https://www.linkedin.com/in/nishantwankhade/",
@@ -45,7 +45,7 @@ export function FloatingDockDemo() {
         title: "Resume",
         icon: (
   
-          <IconFileCv className="h-full w-full text-neutral-500 dark:text-emerald-400"/>
+          <IconFileCv className="h-full w-full text-emerald-400"/>
   
         ),
 
