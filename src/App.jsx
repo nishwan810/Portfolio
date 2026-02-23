@@ -9,6 +9,8 @@ import Lenis from 'lenis'
 import Crosshair from "./components/CrossHair";
 import { Vortex } from "./components/ui/vortex";
 import { HashLoader } from "react-spinners";
+import Carousel from "./components/ui/Carousel";
+
 
 
 
@@ -52,6 +54,11 @@ function App() {
 <HeroSection />
 <AboutSection/> 
 <TimelineDemo/>
+
+
+
+
+
 <Vortex  />     
       </>
       
